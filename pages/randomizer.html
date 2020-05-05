@@ -18,6 +18,7 @@
     <img id="randomImage" alt="you either broke it or im working on it as you use it" /> <br />
 <br />
 <h4>(Keep refreshing the page to see a different image)</h4>
+
 <script>
 
 function getRandomImage() {
@@ -29,7 +30,7 @@ function getRandomImage() {
 
 function displayRandomImage() {
     var htmlImage = document.getElementById("randomImage");
-    htmlImage.src = getRandomImage();
+        htmlImage.src = getRandomImage();
 }
 displayRandomImage();
 
