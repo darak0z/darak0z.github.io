@@ -1,0 +1,14 @@
+body{
+     background: url(https://cdn.discordapp.com/attachments/535993324847497226/710689870598766723/surrealdarako2_small2.png);
+     cursor: url(https://cdn.discordapp.com/attachments/535993324847497226/710688676857905162/cursor.cur), auto !important;
+     font-family: Comic Sans MS;
+     padding-top: 45px;
+     font-size: 15px;
+     color: #efb5ff;
+     align-self: center;
+     text-align: center;
+}
+
+a {
+	color: #c800ff;
+}
