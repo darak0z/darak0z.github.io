@@ -1,14 +1,27 @@
 body{
-     background: url(img/bg_git.png);
-     cursor: url(/cursor.cur), auto !important;
-     font-family: Comic Sans MS;
-     padding-top: 45px;
-     font-size: 15px;
-     color: #efb5ff;
-     align-self: center;
-     text-align: center;
+    background: url(img/bg_git.png);
+	cursor: url(/cursor.cur), auto !important;
+    font-family: Comic Sans MS;
+    padding-top: 45px;
+    font-size: 15px;
+    color: #efb5ff;
+    align-self: center;
+    text-align: center;
 }
 
 a {
 	color: #c800ff;
+}
+
+p.impact {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	align-self: center;
+	text-align: center;
 }
