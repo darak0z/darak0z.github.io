@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -18,18 +18,19 @@
 
 <script>
 
-function getRandomImage() {
-    var images = ['img/favicon_cool.png', 'img/favicon.png', 'img/coolboys.png', 'img/raredarako.png'];
-    var image = images[Math.floor(Math.random()*images.length)];
+    function getRandomImage() {
+      var images = ['img/favicon_cool.png', 'img/favicon.png', 'img/coolboys.png', 'img/raredarako.png'];
+      var image = images[Math.floor(Math.random()*images.length)];
     
-    return image;
-}
-
-function displayRandomImage() {
-    var htmlImage = document.getElementById("randomImage");
-        htmlImage.src = getRandomImage();
-}
-displayRandomImage();
+      return image;
+    }
+    
+    function displayRandomImage() {
+      var htmlImage = document.getElementById("randomImage");
+          htmlImage.src = getRandomImage();
+    }
+    
+    displayRandomImage();
 
 </script>
     
