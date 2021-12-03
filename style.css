@@ -11,17 +11,18 @@ body{
 
 a {
 	color: #c800ff;
+	align-self: center;
+	text-align: center;
 }
 
 p.impact {
 	font-family: Impact, Charcoal, sans-serif;
 }
 
-p {
-	text-align: center;
+p.sans {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-a {
-	align-self: center;
+p {
 	text-align: center;
 }
