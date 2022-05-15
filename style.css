@@ -1,7 +1,10 @@
+html {
+    cursor: url(/cursor.cur), auto !important;
+}
+
 body {
     background: url(img/bg1.png);
     background-size: 128px 128px;
-	cursor: url(/cursor.cur), default !important;
     font-family: Arial, sans-serif;;
     padding-top: 20px;
     font-size: 13px;
