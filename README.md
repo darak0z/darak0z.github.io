@@ -1,2 +1,2 @@
 # darak0z.github.io
-Kill
+Here i host the tChamber wiki and my own page

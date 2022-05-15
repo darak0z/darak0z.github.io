@@ -1,28 +1,126 @@
-body{
-    background: url(img/bg_git.png);
+body {
+    background: url(img/bg1.png);
+    background-size: 128px 128px;
 	cursor: url(/cursor.cur), auto !important;
     font-family: Arial, sans-serif;;
-    padding-top: 45px;
-    font-size: 15px;
-    color: #efb5ff;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #ffffff;
     align-self: center;
     text-align: center;
 }
 
-a {
-	color: #c800ff;
-	align-self: center;
-	text-align: center;
+a {color: #f894ff}
+
+a:hover {color: #f34eff}
+
+/* #region WIKI GAME VERSIONS CSS */
+    #patch-notes {
+        border-radius: 15px;
+        white-space: pre-line;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: left;
+    }    
+
+    #vids-screenshots, #comparison{
+        border-radius: 15px;
+        white-space: pre-line;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #vids-screenshots img, 
+    #comparison img {
+        max-width: 300px;
+        width: 70%
+    }
+
+    #vids-screenshots video, 
+    #comparison video {
+        max-width: 400px;
+        width: 80%;
+    }
+
+    /* normal line breaks + own background */
+    .video-links {
+        border-radius: 15px;
+        white-space: normal;
+        background-color: #30003bc9;
+        padding: 5px;
+        text-align: center;
+    }
+/* #endregion */
+
+/* #region WIKI CHARACTERS CSS */
+    #dialogue-sprite {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #dialogue-sprite img {
+        max-width: 128px;
+        width: 100%;
+    }
+
+    #details {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: left;
+    }
+
+    /* this is to put the Sprite and Details divs side by side */
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-child {
+        flex: 1;
+    }  
+
+    .flex-child:first-child {
+        margin-right: 20px;
+    } 
+/* #endregion */
+
+/* #region WIKI GLOBAL CSS */
+    #brief-description {
+        border-radius: 15px;
+        white-space: pre-line;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #trivia, #trivia-gallery {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #trivia-gallery img {
+        max-width: 196px;
+        width: 100%;
+    }
+/* #endregion */
+
+@keyframes spin 
+{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
 
-p.impact {
-	font-family: Impact, Charcoal, sans-serif;
-}
-
-p.sans {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-p {
-	text-align: center;
+.animSpin {
+    animation: spin 3.0s linear infinite
 }
