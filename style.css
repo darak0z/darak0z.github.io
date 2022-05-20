@@ -79,19 +79,38 @@ a:hover {color: #f34eff}
         padding: 15px;
         text-align: left;
     }
+/* #endregion */
 
-    /* this is to put the Sprite and Details divs side by side */
-    .flex-container {
-        display: flex;
+/* #region WIKI CHAMBERS CSS */
+    #chamber-preview {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
     }
 
-    .flex-child {
-        flex: 1;
-    }  
+    #chamber-preview img {
+        max-width: 256px;
+        width: 100%;
+    }
 
-    .flex-child:first-child {
-        margin-right: 20px;
-    } 
+    #chamber-details {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: left;
+    }
+
+    #ch-environment, #ch-mechanics, #ch-npcs {
+        border-radius: 15px;
+        white-space: pre-line;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: center;
+    }
 /* #endregion */
 
 /* #region WIKI GLOBAL CSS */
@@ -116,6 +135,19 @@ a:hover {color: #f34eff}
         max-width: 196px;
         width: 100%;
     }
+
+    /* this is to put two divs side by side. chambers and characters use this. */
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-child {
+        flex: 1;
+    }  
+
+    .flex-child:first-child {
+        margin-right: 20px;
+    } 
 /* #endregion */
 
 @keyframes spin 
