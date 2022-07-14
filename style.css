@@ -103,12 +103,22 @@ a:hover {color: #f34eff}
         text-align: left;
     }
 
-    #ch-environment, #ch-mechanics, #ch-npcs {
+    #chamber-npcs {
         border-radius: 15px;
-        white-space: pre-line;
         line-height: 20px;
         background-color: #4b005fd2;
         padding: 15px;
+        text-align: center;
+    }
+
+    #chamber-mechanics {
+        border-radius: 15px;
+        line-height: 20px;
+        background-color: #4b005fd2;
+        padding: 15px;
+        text-align: left;
+    }
+    #chamber-mechanics, #chamber-details h2{
         text-align: center;
     }
 /* #endregion */
