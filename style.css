@@ -111,14 +111,14 @@ a:hover {color: #f34eff}
         text-align: center;
     }
 
-    #chamber-mechanics {
+    #chamber-features {
         border-radius: 15px;
         line-height: 20px;
         background-color: #4b005fd2;
         padding: 15px;
         text-align: left;
     }
-    #chamber-mechanics, #chamber-details h2{
+    #chamber-features, #chamber-details h2{
         text-align: center;
     }
 /* #endregion */
@@ -158,6 +158,14 @@ a:hover {color: #f34eff}
     .flex-child:first-child {
         margin-right: 20px;
     } 
+
+    .backgroundBox {
+        font-size:18px; background-color: #4b005fd2; 
+        border-radius: 15px;
+        padding: 10px;
+        width: 400px;
+        margin: 0 auto;
+    }
 /* #endregion */
 
 @keyframes spin 
