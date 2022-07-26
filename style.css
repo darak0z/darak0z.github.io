@@ -133,11 +133,17 @@ a:hover {color: #f457ff}
         text-align: center;
     }
 
-    #trivia, #trivia-gallery {
+    #trivia {
         border-radius: 15px;
         line-height: 20px;
         background-color: #4b005fd2;
         padding: 15px;
+        text-align: center;
+    }
+
+    #trivia-gallery {
+        line-height: 20px;
+        padding: 10px;
         text-align: center;
     }
 
