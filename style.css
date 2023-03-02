@@ -24,6 +24,11 @@ body {
     text-align: center;
 }
 
+.smallText {
+    font-size: 8px; 
+    color:#fbffc4;
+}
+
 a {color: #f89cff}
 
 a:hover {color: #f457ff}
@@ -163,7 +168,7 @@ a:hover {color: #f457ff}
         width: 100%;
     }
 
-    /* this is to put two divs side by side. chambers and characters use this. */
+    /* this is to put two divs side by side. */
     .flex-container {
         display: flex;
     }
