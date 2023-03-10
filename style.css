@@ -25,7 +25,7 @@ body {
 }
 
 .smallText {
-    font-size: 8px; 
+    font-size: 9px; 
     color:#fbffc4;
 }
 
@@ -33,163 +33,122 @@ a {color: #f89cff}
 
 a:hover {color: #f457ff}
 
-/* #region WIKI GAME VERSIONS CSS */
-    #patch-notes {
-        border-radius: 15px;
-        white-space: pre-line;
-        line-height: 22px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: left;
-    }    
+/* patch notes */
+.pre-line-left {
+    border-radius: 15px;
+    white-space: pre-line;
+    line-height: 22px;
+    background-color: #4b005fd2;
+    padding: 15px;
+    text-align: left;
+}    
 
-    #vids-screenshots, #comparison{
-        border-radius: 15px;
-        white-space: pre-line;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+/* vids-screenshots, comparison, brief description */
+.pre-line-center {
+    border-radius: 15px;
+    white-space: pre-line;
+    line-height: 20px;
+    background-color: #4b005fd2;
+    padding: 15px;
+    text-align: center;
+}
 
-    #vids-screenshots img, 
-    #comparison img {
-        max-width: 300px;
-        width: 70%
-    }
+/* vids screenshots img, comparison img */
+.image300px img {
+    max-width: 300px;
+    width: 70%
+}
 
-    #vids-screenshots video, 
-    #comparison video {
-        max-width: 400px;
-        width: 80%;
-    }
+/* vids screenshot video, comparison video */
+.video400px video {
+    max-width: 400px;
+    width: 80%;
+}
 
-    /* normal line breaks + own background */
-    .video-links {
-        border-radius: 15px;
-        white-space: normal;
-        background-color: #30003bc9;
-        padding: 5px;
-        text-align: center;
-    }
-/* #endregion */
+/* normal line breaks + own background */
+.video-links {
+    border-radius: 15px;
+    white-space: normal;
+    background-color: #30003bc9;
+    padding: 5px;
+    text-align: center;
+}
 
-/* #region WIKI CHARACTERS CSS */
-    #dialogue-sprite {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+/* dialogue sprite, chamber preview */
+.image-sprite {
+    border-radius: 15px;
+    line-height: 20px;
+    background-color: #4b005fd2;
+    padding: 15px;
+    text-align: center;
+}
 
-    #dialogue-sprite img {
-        max-width: 128px;
-        width: 100%;
-    }
+/* dialogue sprite img, hoot gun img, hoot enemy img, hoot item img */
+.image-sprite-npc img {
+    max-width: 128px;
+    width: 100%;
+}
 
-    #details {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: left;
-    }
-/* #endregion */
+/* chamber preview img */
+.image-sprite-chamber img {
+    max-width: 256px;
+    width: 100%;
+}
 
-/* #region WIKI CHAMBERS CSS */
-    #chamber-preview {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+/* character details, chamber details. HOOT too.*/
+.text-left {
+    border-radius: 15px;
+    line-height: 20px;
+    background-color: #4b005fd2;
+    padding: 15px;
+    text-align: left;
+}
 
-    #chamber-preview img {
-        max-width: 256px;
-        width: 100%;
-    }
+.text-left h2{
+    text-align: center;
+}
 
-    #chamber-details {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: left;
-    }
+/* chamber NPCs, chamber features, trivia */
+.text-center {
+    border-radius: 15px;
+    line-height: 20px;
+    background-color: #4b005fd2;
+    padding: 15px;
+    text-align: center;
+}
 
-    #chamber-npcs {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+.trivia-gallery {
+    line-height: 20px;
+    padding: 10px;
+    text-align: center;
+}
 
-    #chamber-features {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: left;
-    }
-    #chamber-features, #chamber-details h2{
-        text-align: center;
-    }
-/* #endregion */
+.trivia-gallery img {
+    max-width: 196px;
+    width: 100%;
+}
 
-/* #region WIKI GLOBAL CSS */
-    #brief-description {
-        border-radius: 15px;
-        white-space: pre-line;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+/* this is to put two divs side by side. */
+.flex-container {
+    display: flex;
+}
 
-    #trivia {
-        border-radius: 15px;
-        line-height: 20px;
-        background-color: #4b005fd2;
-        padding: 15px;
-        text-align: center;
-    }
+.flex-child {
+    flex: 1;
+}  
 
-    #trivia-gallery {
-        line-height: 20px;
-        padding: 10px;
-        text-align: center;
-    }
+.flex-child:first-child {
+    margin-right: 20px;
+} 
 
-    #trivia-gallery img {
-        max-width: 196px;
-        width: 100%;
-    }
-
-    /* this is to put two divs side by side. */
-    .flex-container {
-        display: flex;
-    }
-
-    .flex-child {
-        flex: 1;
-    }  
-
-    .flex-child:first-child {
-        margin-right: 20px;
-    } 
-
-    .backgroundBox {
-        font-size:18px; 
-        background-color: #4b005fd2; 
-        border-radius: 15px;
-        padding: 10px;
-        width: 400px;
-        margin: 0 auto;
-    }
-/* #endregion */
+.backgroundBox {
+    font-size:18px; 
+    background-color: #4b005fd2; 
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
 
 @keyframes spin 
 {
