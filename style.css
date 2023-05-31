@@ -29,6 +29,36 @@ body {
     color:#fbffc4;
 }
 
+.glowyText {
+    color:#f4ff58;
+    animation: glowText 2.5s infinite;
+}
+
+@keyframes glowText
+{
+    0% {
+    color:#f4ff58;
+    }
+
+    25% {
+    color:#ffd900;
+    transform: skew(2deg, -2deg);
+    }
+
+    50% {
+    color:#f4ff58;
+    }
+
+    75% {
+    color:#ffd900;
+    transform: skew(-2deg, 2deg);
+    }
+
+    100% {
+    color:#f4ff58;
+    }
+}
+
 a {color: #f89cff}
 
 a:hover {color: #f457ff}
