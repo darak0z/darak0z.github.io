@@ -34,6 +34,14 @@ body {
     animation: glowText 2.5s infinite;
 }
 
+.hootPassive {
+    color:#00FFFF;
+}
+
+.hootActive {
+    color:#ffbf00;
+}
+
 @keyframes glowText
 {
     0% {
@@ -60,6 +68,8 @@ body {
 }
 
 a {color: #f89cff}
+
+.altLink a {color: #fffa9c}
 
 a:hover {color: #f457ff}
 
@@ -116,6 +126,11 @@ a:hover {color: #f457ff}
 /* dialogue sprite img, hoot gun img, hoot enemy img, hoot item img */
 .image-sprite-npc img {
     max-width: 128px;
+    width: 100%;
+}
+
+.image-sprite-class img {
+    max-width: 300px;
     width: 100%;
 }
 
