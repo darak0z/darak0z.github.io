@@ -81,6 +81,9 @@ a:hover {color: #f457ff}
     background-color: #4b005fd2;
     padding: 15px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }    
 
 /* vids-screenshots, comparison, brief description */
@@ -91,6 +94,9 @@ a:hover {color: #f457ff}
     background-color: #4b005fd2;
     padding: 15px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 
 /* vids screenshots img, comparison img */
@@ -121,6 +127,9 @@ a:hover {color: #f457ff}
     background-color: #4b005fd2;
     padding: 15px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
 /* dialogue sprite img, hoot gun img, hoot enemy img, hoot item img */
@@ -147,6 +156,9 @@ a:hover {color: #f457ff}
     background-color: #4b005fd2;
     padding: 15px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
 .text-left h2{
@@ -160,6 +172,9 @@ a:hover {color: #f457ff}
     background-color: #4b005fd2;
     padding: 15px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
 .text-center h2, .text-left h2, .text-center h3, .text-left h3 {
@@ -192,7 +207,7 @@ a:hover {color: #f457ff}
 
 .backgroundBox {
     font-size:18px; 
-    background-color: #4b005fd2; 
+    background-color: #4b005fd2;
     border-radius: 15px;
     padding: 10px;
     width: 400px;
